@@ -1,0 +1,28 @@
+$page-color:#F7F8FC;
+$page-color: #F7F8FC;
+$sidebar-color: #252733;
+$sidebar-text-color: #A4A6B3;
+
+$sidebar-width: 200px;
+
+.sidebar {
+  width: $sidebar-width;
+  background-color: $sidebar-color;
+  color: $sidebar-text-color;
+}
+
+body {
+  background-color: $page-color;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body {
+  @include flex-center;
+}
+
+/* we tried :( */

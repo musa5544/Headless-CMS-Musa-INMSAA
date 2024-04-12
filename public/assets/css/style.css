@@ -1,0 +1,185 @@
+body {
+    background-color: #F7F8FC;
+    font-family: "Mulish", sans-serif;
+    color: #252733;
+}
+
+#menu .nav-link .d-none.d-sm-inline,
+#menu .nav-link .fs-4 {
+    color: #A4A6B3 !important;
+    /* sidebar text color to DDE2FF */
+}
+
+.pt-2 {
+    padding-top: 40px !important;
+
+}
+
+.nav-link {
+    margin-bottom: 10px !important;/
+}
+
+/*  margin to the right of the images */
+.nav-link img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.d-flex.align-items-center.pb-3.mb-md-0.me-md-auto.text-white.text-decoration-none img {
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+#menu .nav-link:first-child .d-none.d-sm-inline {
+    color: #A4A6B3 !important;
+}
+
+/* Top Bar */
+.overview {
+    font-weight: 600;
+    font-size: 24px;
+    margin: auto;
+}
+
+.btn-group:active {
+    border: none;
+}
+
+.user-name {
+    display: none;
+}
+
+.avatar-image {
+    height: 50px;
+    float: right;
+}
+
+/* Vimbai: Ticket Status Cards */
+
+.ticket-name {
+    font-weight: 600;
+    font-size: 19px;
+    color: #9FA2B4;
+}
+
+.ticket-count {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+.ticket-body:hover {
+    border-color: #3751FF;
+    border-width: 2px;
+    color: #3751FF;
+}
+
+/* Vimbai: Today's Trens Section */
+.t-trends {
+    font-weight: 600;
+    font-size: 19px;
+    padding: 1%;
+}
+
+.trends-border {
+    border-left: 1px solid #9FA2B4;
+}
+
+.trend-status-name {
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #9FA2B4;
+}
+
+.trend-status-number {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card.trends {
+    margin-bottom: 30px;
+}
+
+/* Add spacing for unresolved tickets and tasks section */
+#cardbg,
+#cardbg2 {
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.list-group-item {
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.view {
+    margin-top: 30px;
+}
+
+.un-tic-bold {
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.un-stat {
+    font-weight: 550;
+}
+
+.num-gray {
+    color: #9FA2B4;
+}
+
+
+
+/* Breakpoint for big screen*/
+/* 768 is breakpoint bc we are using md for most bootstrap breakpoint */
+@media only screen and (min-width: 768px) {
+
+    /* Show topbar profile name on wide screen */
+
+    .user-name {
+        font-weight: 600;
+        font-size: 16px;
+        border-left: 1px solid #9FA2B4;
+        width: max-content;
+        display: inline;
+    }
+
+    .user-name:hover {
+        border-left: 1px solid #9FA2B4;
+    }
+
+    .user-name:active {
+        color: #3751FF;
+        border: 0px;
+    }
+
+}
+
+.view-blue {
+    color: blue;
+}
+
+.text-muted {
+    color: grey;
+}
+
+.small-text {
+    font-size: 0.9em;
+}
+
+.gray-text {
+    color: gray;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin: 10px 0;
+}
+
+
+
+/* ----------Don't code past here--------------- */
+/*# sourceMappingURL=style.css.map */

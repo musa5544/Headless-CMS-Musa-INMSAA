@@ -1,0 +1,116 @@
+{
+    "sidebar": [
+        {
+            "name": "Overview",
+            "icon": "assets/images/overview.png"
+        },
+        {
+            "name": "Tickets",
+            "icon": "assets/images/tickets.png"
+        },
+        {
+            "name": "Ideas",
+            "icon": "assets/images/ideas.png"
+        },
+        {
+            "name": "Contacts",
+            "icon": "assets/images/contact.png"
+        },
+        {
+            "name": "Agents",
+            "icon": "assets/images/agents.png"
+        },
+        {
+            "name": "Articles",
+            "icon": "assets/images/articles.png"
+        },
+        {
+            "name": "Settings",
+            "icon": "assets/images/settings.png"
+        },
+        {
+            "name": "Subscription",
+            "icon": "assets/images/subscription.png"
+        }
+    ],
+    "cards": [
+        {
+            "title": "Unresolved",
+            "count": "60"
+        },
+        {
+            "title": "Overdue",
+            "count": "16"
+        },
+        {
+            "title": "Open",
+            "count": "43"
+        },
+        {
+            "title": "On Hold",
+            "count": "64"
+        }
+    ],
+    "trends": [
+        {
+            "title": "Resolved",
+            "value": "449"
+        },
+        {
+            "title": "Received",
+            "value": "426"
+        },
+        {
+            "title": "Average First Response Time",
+            "value": "33m"
+        },
+        {
+            "title": "Average Response Time",
+            "value": "3h 8m"
+        },
+        {
+            "title": "Resolution within SLA",
+            "value": "94%"
+        }
+    ],
+    "unresolvedTickets": [
+        {
+            "status": "Waiting on Feature Request",
+            "count": "4238"
+        },
+        {
+            "status": "Awaiting Customer Response",
+            "count": "1005"
+        },
+        {
+            "status": "Awaiting Developer Fix",
+            "count": "914"
+        },
+        {
+            "status": "Pending",
+            "count": "281"
+        }
+    ],
+    "tasks": [
+        {
+            "id": 1,
+            "task": "Create new task",
+            "status": "actionable"
+        },
+        {
+            "id": 2,
+            "task": "Finish ticket update",
+            "status": "urgent"
+        },
+        {
+            "id": 3,
+            "task": "Create new ticket example",
+            "status": "new"
+        },
+        {
+            "id": 4,
+            "task": "Update ticket report",
+            "status": "checked"
+        }
+    ]
+}
